@@ -21,4 +21,20 @@ public class Bus {
     }
     return count;
   }
+
+  public void boaring(Person person){
+    int passengerCount = passengerCount();
+    passengers[passengerCount] = person;
+  }
+
+
+
+
+
+
+
+
+
+
+
 }
